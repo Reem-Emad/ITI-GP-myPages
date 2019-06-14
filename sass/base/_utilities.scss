@@ -1,0 +1,51 @@
+div {
+  &.container-fluid {
+    //  background-color: aqua;
+    &.no-gutters {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &.container {
+    //  background-color: aqua;
+    padding-left: 0;
+    padding-right: 0;
+    &.no-gutters {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+// .row
+// {
+//    background-color: pink;
+
+// }
+// .col
+// {
+//    background-color: burlywood;
+// }
+
+.fs {
+  &-1 {
+    font-size: 1rem !important;
+  }
+  &-1p3 {
+    font-size: 1.3rem !important;
+  }
+}
+
+.bg {
+  &-gray-shade-1 {
+    background-color: $gray-color-shade1 !important;
+  }
+  &-secondary-color {
+    background-color: $secondary-color !important;
+    &:hover,
+    &:focus {
+      background-color: $pale-black2 !important;
+    }
+  }
+}

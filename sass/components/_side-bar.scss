@@ -1,0 +1,14 @@
+.side-bar{
+    background-color: $white-color;
+    & h6{
+        border-left: 4px solid grey;
+    }
+    & a{
+        background-color: $primary-color;
+        color: $white-color;
+        padding: 0.5rem;
+        display: block;
+        font-size: 13px;
+        text-decoration: none;
+    }
+}
